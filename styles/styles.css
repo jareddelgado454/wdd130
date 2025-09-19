@@ -56,6 +56,10 @@ main h1 {
   color: #00bcd4;
 }
 
+main p {
+  color:rgb(12, 12, 12);
+}
+
 /* ❌ main img → corregido */
 main img {
   width: 200px;
@@ -99,6 +103,7 @@ footer {
   padding: 20px 0;
   text-align: center;
   border-top: 2px solid #00bcd4;
+  color:rgb(27, 27, 27);
 }
 
 /* ✅ Responsive */

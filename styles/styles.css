@@ -13,6 +13,23 @@ body {
   padding: 20px;
 }
 
+/* ===== Navegación ===== */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #444;
+}
+
 /* ===== Main ===== */
 main {
   max-width: 800px; /* Limita el ancho */
@@ -23,6 +40,12 @@ main {
   border-radius: 8px;
 }
 
+h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
 /* Imagen solo dentro de main */
 main img {
   width: 150px;
@@ -30,6 +53,11 @@ main img {
   border-radius: 50%;
   display: block;
   margin-top: 10px;
+
+  /* Propiedades requeridas */
+  border: 2px solid #ccc;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* ===== Aside ===== */

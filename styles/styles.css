@@ -1,0 +1,67 @@
+/* ===== Reset básico ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ===== Main ===== */
+main {
+  max-width: 800px; /* Limita el ancho */
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Imagen solo dentro de main */
+main img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin-top: 10px;
+}
+
+/* ===== Aside ===== */
+aside {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #eaf4f4;
+  color: #333;
+  text-align: center;
+  border-radius: 8px;
+}
+
+aside img {
+  width: 200px;
+  height: auto; /* Mantiene proporción */
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+/* ===== Párrafos ===== */
+p {
+  padding: 0; /* Como pide la tarea */
+  margin-top: 10px;
+}
+
+/* ===== Footer ===== */
+footer {
+  margin-top: 20px; /* separación con el contenido */
+  border-top: 2px solid #ccc; /* línea superior */
+  text-align: center; /* centra el texto */
+  padding-top: 10px;
+  font-size: 0.9rem;
+}

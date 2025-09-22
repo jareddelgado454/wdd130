@@ -48,13 +48,11 @@ h1 {
 
 /* Imagen solo dentro de main */
 main img {
-  width: 150px;
+  /* width: 150px; */
   height: auto;
   border-radius: 50%;
   display: block;
   margin-top: 10px;
-
-  /* Propiedades requeridas */
   border: 2px solid #ccc;
   padding: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

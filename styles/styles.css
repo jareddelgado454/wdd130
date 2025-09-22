@@ -61,7 +61,6 @@ main img {
 /* ===== Aside ===== */
 aside {
   width: 200px;
-  height: auto;
   margin: 20px auto;
   border: 1px solid #ccc;
   padding: 15px;
@@ -72,7 +71,7 @@ aside {
 }
 
 aside img {
-  /* width: 200px; */
+  width: 200px;
   height: auto; /* Mantiene proporción */
   margin: 10px 0;
   border-radius: 8px;

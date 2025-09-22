@@ -61,6 +61,7 @@ main img {
 /* ===== Aside ===== */
 aside {
   width: 200px;
+  height: auto;
   margin: 20px auto;
   border: 1px solid #ccc;
   padding: 15px;

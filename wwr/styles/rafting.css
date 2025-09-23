@@ -1,0 +1,147 @@
+/* rafting.css */
+
+/* variables de color y tipografías */
+:root{
+  --body-font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --heading-font: "Georgia", "Times New Roman", serif;
+  --primary-color: #0b5d7a;   /* azul/verde */
+  --accent1-color: #ff7a00;    /* naranja */
+  --text-color: #222;
+  --muted-bg: #f4f7f7;
+}
+
+/* reset recomendado */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* texto global */
+body{
+  font-family: var(--body-font);
+  color: var(--text-color);
+  background-color: var(--muted-bg);
+  line-height: 1.5;
+}
+
+/* limitar ancho y centrar header, main, footer */
+header, main, footer{
+  width: 840px;
+  margin: 0 auto;
+}
+
+/* encabezados */
+h1, h2{
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* espacio básico para elementos comunes */
+nav, p, section, article{
+  margin: 16px;
+  padding: 8px;
+}
+
+/* header: logo y nav */
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
+
+.logo{
+  max-width: 160px; /* logo pequeño */
+  height: auto;
+}
+
+/* nav simple estilo */
+header nav a{
+  margin-left: 12px;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* HERO: imagen de fondo + overlays */
+.hero{
+  position: relative;
+  margin: 0 16px 16px 16px;
+  border-radius: 8px;
+  overflow: hidden; /* evita mostrar overflow de overlays */
+}
+
+/* la imagen del hero debe llenar */
+.hero img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* título sobre la imagen */
+.hero h1{
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 12px 16px;
+  text-align: center;
+  opacity: 0.85;
+  background-color: var(--accent1-color);
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+/* article en overlay dentro del hero */
+.hero article{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: calc(50% - 40px);
+  background-color: rgba(255,255,255,0.95);
+  padding: 14px;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* img solo para este article: flotar a la derecha */
+.hero article img{
+  float: right;
+  width: 125px;
+  height: auto;
+  margin-left: 12px;
+  border-radius: 6px;
+}
+
+/* secciones debajo del hero */
+.history, .adventure{
+  background: #fff;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 12px 16px;
+  border: 1px solid #e3e3e3;
+}
+
+/* quitar subrayado en enlaces de redes dentro del footer */
+.socialmedia a{
+  text-decoration: none;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+/* iconos de social media */
+.socialmedia img{
+  width: 36px;
+  height: auto;
+  display: block;
+}
+
+/* pie de página */
+footer{
+  text-align: center;
+  margin-top: 20px;
+  border-top: 2px solid #dcdcdc;
+  padding-top: 12px;
+  margin-bottom: 24px;
+}

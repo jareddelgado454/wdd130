@@ -72,7 +72,7 @@ aside {
 
 aside img {
   width: 200px;
-  height: auto; /* Mantiene proporción */
+  height: auto; 
   margin: 10px 0;
   border-radius: 8px;
 }

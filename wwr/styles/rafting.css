@@ -32,9 +32,15 @@ header, main, footer {
 }
 
 /* Encabezados */
-h1, h2 {
+h2 {
   font-family: var(--heading-font);
   color: var(--primary-color)!important;
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--heading-font);
+  color: rgb(5, 5, 5)!important;
   text-align: center;
 }
 

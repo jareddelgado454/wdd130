@@ -116,7 +116,7 @@ header nav a:hover {
   position: absolute;
   top: 150px;
   right: 20px;
-  width: "100%";
+  width: 100%;
   background-color: rgba(255,255,255,0.95);
   padding: 14px;
   border-radius: 6px;
@@ -420,7 +420,7 @@ footer .socialmedia img {
   font-weight: 600;
   margin: 0; 
   align-items: start;
-  text-align: "left";
+  text-align: left;
 }
 
 .purpose-options {
